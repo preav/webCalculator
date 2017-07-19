@@ -3,16 +3,7 @@
 <html>
 <head>
 	<title>Web Calculator</title>
-	<style type="text/css">
-		body{
-			background-color: powderblue;
-		}
-		table, th, td{
-			border: 1px solid blue;
-			text-align: center;
-		}
-
-	</style>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
 <div>
@@ -50,9 +41,11 @@
 	<button id="btn0">0</button></td>
 </tr>
 <tr>
-	<td><button id="calc">Calculate</button></td>
-	<td><button id="clearAll">CE</button>
+	<td colspan="2"><button id="clearAll">CE</button>
 	<button id="clearLast">C</button></td>
+</tr>
+<tr>
+	<td colspan="2"><button id="calc">Calculate</button></tr>
 </tr>
 	</tbody>
 	</table>

@@ -1,0 +1,13 @@
+body{
+	background-color: powderblue; /*to change the colour of the background of the entire page*/
+	}
+table{
+	margin: auto; /*to align the calculator table at the center of the page*/
+	margin-top: 15%; /*to give the calculator some space from the top*/
+	}
+table, th, td{
+	border: 2px solid #3b5998; /*sets the border property of the table*/
+	text-align: center; /*aligns all the text written at the center*/
+	border-collapse: collapse; /*gives a single solid border instead of two lines due to th and td as border*/
+	padding: 3px;
+	}
